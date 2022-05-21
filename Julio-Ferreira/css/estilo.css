@@ -1,0 +1,288 @@
+/* Disenios generales */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #242323;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* Cambiando los links  */
+
+a {
+  color: #524c56;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #c3d7df;
+}
+
+/* Cambiando generales a las imagenes  */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;
+}
+
+/* Dandole disenio y estructurando el nav*/
+nav {
+  display: flex;
+  padding: 25px 20px 0px 0px;
+  justify-content: right;
+  align-items: center;
+}
+
+header {
+  background-color: rgb(28, 28, 39);
+  margin-bottom: 25px;
+}
+
+#menu-icon {
+  display: none;
+  font-size: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul li {
+  font-size: 150%;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul li a { 
+  color: #6991AC;
+}
+
+
+/* Estructuracion y disenio de la informacion de lo 3 juegos separados por sus secciones */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+.main-content {
+  max-width: 80%;
+}
+
+.one-third {
+  margin: auto;
+  width: 500px;
+  padding: 10px;
+  text-align: center;
+}
+
+.icon-wrap img {
+  margin: 0 auto;
+  height: 300px;
+  width: 400px;
+  border-radius: 150px;
+ 
+}
+
+/* Disenio del footer */
+footer {
+  background: #2c3e50;
+  width: 100%;
+}
+
+
+.icon-text {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.icon-text-text {
+  align-items: center;
+  width: 60%;
+  padding: 4% 4% 2% 0;
+  margin: auto;
+
+}
+
+
+.social {
+  list-style-type: none;
+  text-align: center;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 420%;
+  margin: 1%;
+  padding: 5%;
+  color: #c3d7df;
+}
+
+.social i:hover {
+  color: #f5f5f5;
+}
+
+footer.second {
+  border-top: 1px solid #aadcd2;
+  text-align: center;
+  margin: 0;
+ }
+ 
+footer.second p, .second a {
+  text-align: center;
+  color: #fff;
+  font-size: 160%;
+  line-height: 155%;
+}
+
+p {
+  color: #d4d0d6;
+  font-size: 160%;
+  line-height: 155%;
+  padding: 3%;
+  text-indent: 2%;
+  text-align: justify;
+}
+
+/* disenio h3 */
+h3 {
+  font-size: 175%;
+  line-height: 155%;
+  font-weight: 500;
+  color: #d4d0d6;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+/* disenio de la tabla y sus campos */
+table {
+  margin-top: 15px;
+}
+
+table, th, tr, td {
+  border: 2px solid rgb(211, 209, 209);
+  color: rgb(211, 209, 209);
+  padding: 10px;
+}
+
+.img_table {
+  width: 50px;
+  height: 50px;
+}
+
+/* disenio h2 */
+h2 {
+  color: white
+}
+
+/* disenio y posicionamiento de botones */
+.buttons {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* disenio span */
+span {
+  display: inline-block;
+  font-family: sans-serif;
+  color: #d4d0d6;
+  font-size: 125%;
+}
+/* disenio de botones (extraido de un disenio publico para que se viese un poco mejor)*/
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+/* posicionamiento form */
+form {
+  max-width: 1150px;
+  margin: auto;
+}
+
+/* posicionamiento inputs */
+.inputs {
+  text-align: center;
+}
+
+.inputs input {
+  margin-bottom: 20px;
+  width: 200px;
+  height: 17px;
+}
+
+/* responsive de tabla */
+.div_table {
+  overflow-x: auto;
+}
+@media only screen and (max-width: 450px) {
+  /* detalles finales para el funcionamiento del responsive */
+  .main-container {
+    justify-content: center;
+  }
+
+  nav ul{
+    margin: auto;
+  }
+
+  .sidebar {
+    min-width: 400px;
+  }
+
+}
+
